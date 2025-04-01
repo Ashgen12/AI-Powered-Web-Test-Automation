@@ -1,0 +1,9 @@
+beautifulsoup4
+selenium
+webdriver-manager
+openai
+pandas
+openpyxl
+gradio
+lxml 
+requests 

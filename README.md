@@ -8,6 +8,24 @@ This project implements a simplified AI-driven prototype that scrapes website UI
   [https://huggingface.co/spaces/Ashgen12/AI-Powered-Web-Test-Automation](https://huggingface.co/spaces/Ashgen12/AI-Powered-Web-Test-Automation)
 </details>
 
+## 📁 Project Structure
+
+```bash
+ai_test_generator/
+│
+├── 📄 app.py                 # Main Gradio application
+├── 📄 scraper.py             # Web scraping logic
+├── 📄 genai_handler.py       # GenAI interaction logic
+├── 📄 utils.py               # Utility functions
+├── 📄 requirements.txt       # Python dependencies
+├── 📄 README.md              # Project documentation
+│
+└── 📂 outputs/               # Generated files directory
+    ├── 📄 elements.json      # Extracted UI elements
+    ├── 📄 test_cases.xlsx    # Generated test cases
+    └── 📄 test_scripts.xlsx  # Selenium scripts
+```
+
 ## Features
 
 *   **Web Scraping:** Extracts buttons, links, input fields, and forms from a given public URL using Selenium and BeautifulSoup.

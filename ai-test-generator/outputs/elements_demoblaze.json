@@ -1,0 +1,1046 @@
+[
+    {
+        "type": "button",
+        "text": "\u00d7",
+        "id": null,
+        "name": null,
+        "class": [
+            "close"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Close",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-secondary"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Send message",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-primary"
+        ],
+        "attributes": {
+            "type": "button",
+            "onclick": "send()"
+        }
+    },
+    {
+        "type": "button",
+        "text": "\u00d7",
+        "id": null,
+        "name": null,
+        "class": [
+            "close"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Close",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-secondary"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Sign up",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-primary"
+        ],
+        "attributes": {
+            "type": "button",
+            "onclick": "register()"
+        }
+    },
+    {
+        "type": "button",
+        "text": "\u00d7",
+        "id": null,
+        "name": null,
+        "class": [
+            "close"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Close",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-secondary"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Log in",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-primary"
+        ],
+        "attributes": {
+            "type": "button",
+            "onclick": "logIn()"
+        }
+    },
+    {
+        "type": "button",
+        "text": "\u00d7",
+        "id": null,
+        "name": null,
+        "class": [
+            "close"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Play Video",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-big-play-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Play Video",
+            "aria-disabled": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Play",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-play-control",
+            "vjs-control",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Play",
+            "aria-disabled": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Mute",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-mute-control",
+            "vjs-control",
+            "vjs-button",
+            "vjs-vol-3"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Mute",
+            "aria-disabled": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Seek to live, currently playing liveLIVE",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-seek-to-live-control",
+            "vjs-control",
+            "vjs-at-live-edge"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Seek to live, currently playing live",
+            "aria-disabled": "true"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Playback Rate",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-playback-rate",
+            "vjs-menu-button",
+            "vjs-menu-button-popup",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Playback Rate",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Chapters",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-chapters-button",
+            "vjs-menu-button",
+            "vjs-menu-button-popup",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Chapters",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Descriptions",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-descriptions-button",
+            "vjs-menu-button",
+            "vjs-menu-button-popup",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Descriptions",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Captions",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-subs-caps-button",
+            "vjs-menu-button",
+            "vjs-menu-button-popup",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Captions",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Audio Track",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-audio-button",
+            "vjs-menu-button",
+            "vjs-menu-button-popup",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Audio Track",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Picture-in-Picture",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-picture-in-picture-control",
+            "vjs-control",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Picture-in-Picture",
+            "aria-disabled": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Fullscreen",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-fullscreen-control",
+            "vjs-control",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "Fullscreen",
+            "aria-disabled": "false"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Resetrestore all settings to the default values",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-default-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "title": "restore all settings to the default values"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Done",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-done-button"
+        ],
+        "attributes": {
+            "type": "button"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Close Modal Dialog",
+        "id": null,
+        "name": null,
+        "class": [
+            "vjs-close-button",
+            "vjs-control",
+            "vjs-button"
+        ],
+        "attributes": {
+            "type": "button",
+            "aria-disabled": "false",
+            "title": "Close Modal Dialog"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Close",
+        "id": null,
+        "name": null,
+        "class": [
+            "btn",
+            "btn-secondary"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-dismiss": "modal"
+        }
+    },
+    {
+        "type": "button",
+        "text": "",
+        "id": null,
+        "name": null,
+        "class": [
+            "navbar-toggler",
+            "navbar-toggler-right"
+        ],
+        "attributes": {
+            "type": "button",
+            "data-toggle": "collapse",
+            "data-target": "#navbarExample",
+            "aria-controls": "navbarExample",
+            "aria-expanded": "false",
+            "aria-label": "Toggle navigation"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Previous",
+        "id": "prev2",
+        "name": null,
+        "class": [
+            "page-link"
+        ],
+        "attributes": {
+            "value": "1"
+        }
+    },
+    {
+        "type": "button",
+        "text": "Next",
+        "id": "next2",
+        "name": null,
+        "class": [
+            "page-link"
+        ],
+        "attributes": {
+            "value": "9"
+        }
+    },
+    {
+        "type": "link",
+        "text": "PRODUCT STORE",
+        "href": "index.html",
+        "id": "nava",
+        "class": [
+            "navbar-brand"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Home(current)",
+        "href": "index.html",
+        "id": null,
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Contact",
+        "href": "#",
+        "id": null,
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "data-toggle": "modal",
+            "data-target": "#exampleModal"
+        }
+    },
+    {
+        "type": "link",
+        "text": "About us",
+        "href": "#",
+        "id": null,
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "data-toggle": "modal",
+            "data-target": "#videoModal"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Cart",
+        "href": "cart.html",
+        "id": "cartur",
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Log in",
+        "href": "#",
+        "id": "login2",
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "data-toggle": "modal",
+            "data-target": "#logInModal",
+            "style": "display: block;"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Log out",
+        "href": "#",
+        "id": "logout2",
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "style": "display:none",
+            "onclick": "logOut()"
+        }
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "#",
+        "id": "nameofuser",
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "style": "display:none"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Sign up",
+        "href": "#",
+        "id": "signin2",
+        "class": [
+            "nav-link"
+        ],
+        "attributes": {
+            "data-toggle": "modal",
+            "data-target": "#signInModal",
+            "style": "display: block;"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Previous",
+        "href": "#carouselExampleIndicators",
+        "id": null,
+        "class": [
+            "carousel-control-prev"
+        ],
+        "attributes": {
+            "role": "button",
+            "data-slide": "prev"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Next",
+        "href": "#carouselExampleIndicators",
+        "id": null,
+        "class": [
+            "carousel-control-next"
+        ],
+        "attributes": {
+            "role": "button",
+            "data-slide": "next"
+        }
+    },
+    {
+        "type": "link",
+        "text": "CATEGORIES",
+        "href": "",
+        "id": "cat",
+        "class": [
+            "list-group-item"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Phones",
+        "href": "#",
+        "id": "itemc",
+        "class": [
+            "list-group-item"
+        ],
+        "attributes": {
+            "onclick": "byCat('phone')"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Laptops",
+        "href": "#",
+        "id": "itemc",
+        "class": [
+            "list-group-item"
+        ],
+        "attributes": {
+            "onclick": "byCat('notebook')"
+        }
+    },
+    {
+        "type": "link",
+        "text": "Monitors",
+        "href": "#",
+        "id": "itemc",
+        "class": [
+            "list-group-item"
+        ],
+        "attributes": {
+            "onclick": "byCat('monitor')"
+        }
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=1",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Samsung galaxy s6",
+        "href": "prod.html?idp_=1",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=2",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Nokia lumia 1520",
+        "href": "prod.html?idp_=2",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=3",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Nexus 6",
+        "href": "prod.html?idp_=3",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=4",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Samsung galaxy s7",
+        "href": "prod.html?idp_=4",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=5",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Iphone 6 32gb",
+        "href": "prod.html?idp_=5",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=6",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Sony xperia z5",
+        "href": "prod.html?idp_=6",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=7",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "HTC One M9",
+        "href": "prod.html?idp_=7",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=8",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Sony vaio i5",
+        "href": "prod.html?idp_=8",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "",
+        "href": "prod.html?idp_=9",
+        "id": null,
+        "class": null,
+        "attributes": {}
+    },
+    {
+        "type": "link",
+        "text": "Sony vaio i7",
+        "href": "prod.html?idp_=9",
+        "id": null,
+        "class": [
+            "hrefch"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "text",
+        "id": "recipient-email",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "text",
+        "id": "recipient-name",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "text",
+        "id": "sign-username",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "password",
+        "id": "sign-password",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "text",
+        "id": "loginusername",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "input",
+        "input_type": "password",
+        "id": "loginpassword",
+        "name": null,
+        "placeholder": null,
+        "value": null,
+        "class": [
+            "form-control"
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "form",
+        "id": null,
+        "action": null,
+        "method": null,
+        "class": null,
+        "contained_elements": [
+            {
+                "tag": "input",
+                "type": "text",
+                "id": "recipient-email",
+                "name": null
+            },
+            {
+                "tag": "input",
+                "type": "text",
+                "id": "recipient-name",
+                "name": null
+            }
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "form",
+        "id": null,
+        "action": null,
+        "method": null,
+        "class": null,
+        "contained_elements": [
+            {
+                "tag": "input",
+                "type": "text",
+                "id": "sign-username",
+                "name": null
+            },
+            {
+                "tag": "input",
+                "type": "password",
+                "id": "sign-password",
+                "name": null
+            }
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "form",
+        "id": null,
+        "action": null,
+        "method": null,
+        "class": null,
+        "contained_elements": [
+            {
+                "tag": "input",
+                "type": "text",
+                "id": "loginusername",
+                "name": null
+            },
+            {
+                "tag": "input",
+                "type": "password",
+                "id": "loginpassword",
+                "name": null
+            }
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "form",
+        "id": null,
+        "action": null,
+        "method": null,
+        "class": null,
+        "contained_elements": [
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Play Video"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Play"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Mute"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Seek to live, currently playing liveLIVE"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Playback Rate"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Chapters"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Descriptions"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Captions"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Audio Track"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Picture-in-Picture"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Fullscreen"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Resetrestore all settings to the default values"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Done"
+            },
+            {
+                "tag": "button",
+                "type": "button",
+                "id": null,
+                "name": null,
+                "text": "Close Modal Dialog"
+            }
+        ],
+        "attributes": {}
+    },
+    {
+        "type": "form",
+        "id": "frm",
+        "action": null,
+        "method": null,
+        "class": null,
+        "contained_elements": [
+            {
+                "tag": "button",
+                "type": null,
+                "id": "prev2",
+                "name": null,
+                "text": "Previous"
+            },
+            {
+                "tag": "button",
+                "type": null,
+                "id": "next2",
+                "name": null,
+                "text": "Next"
+            }
+        ],
+        "attributes": {
+            "name": "frm",
+            "style": "float: right;",
+            "onsubmit": "return false"
+        }
+    }
+]
